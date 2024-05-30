@@ -1,5 +1,4 @@
 /* <uniquifier>: Use a unique and descriptive class name */
-
 .plus-jakarta-sans-body {
     font-family: "Plus Jakarta Sans", sans-serif !important;
     font-optical-sizing: auto !important;
@@ -20,6 +19,12 @@ body {
 .navbar {
     height: 5rem;
     background-color: white;
+}
+
+/* Have to fix this icon  */
+.navbar-toggler-icon {
+    background-color: grey !important;
+    border-radius: 0.5rem !important;
 }
 
 .fa-compass {
@@ -67,7 +72,7 @@ body {
 }
 
 /* Cards  */
-.card {
+.listing-card {
     border: none !important;
     margin-bottom: 2rem;
 }
